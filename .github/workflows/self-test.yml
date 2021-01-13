@@ -338,14 +338,14 @@ jobs:
     - name: Clean Up Tags for Git Push
       run: |
         cd mmmm_cookies
-        git checkout production
+        git checkout master
         git tag --delete v0.0.0  # Don't Repush
         git tag v1.0.0
-    - name: Push To Test Repository (main)
+    - name: Push To Test Repository (master)
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.REMOTE_TOKEN }}
-        branch: main
+        branch: master
         tags: false
         directory: mmmm_cookies
         repository: ${{ secrets.REMOTE_ORIGIN }}

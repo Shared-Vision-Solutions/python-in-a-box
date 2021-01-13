@@ -6,9 +6,9 @@
 
 [Project Documentation](https://{{cookiecutter.project_slug}}.readthedocs.io/)
 
-### Main Branch Builds (Staging Environment)
-- [![{{cookiecutter.project_slug}} Generic Push](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/{{cookiecutter.project_slug}}%20Generic%20Push/badge.svg?branch=main)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
-- [![{{cookiecutter.project_slug}} Wheel Push](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/{{cookiecutter.project_slug}}%20Wheel%20Push/badge.svg?branch=main)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
+### Master Branch Builds (Staging Environment)
+- [![{{cookiecutter.project_slug}} Generic Push](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/{{cookiecutter.project_slug}}%20Generic%20Push/badge.svg?branch=master)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
+- [![{{cookiecutter.project_slug}} Wheel Push](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/{{cookiecutter.project_slug}}%20Wheel%20Push/badge.svg?branch=master)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
 
 ### Production Branch Builds (Tags Created on Production Branch)
 - [![{{cookiecutter.project_slug}} Generic Push](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/{{cookiecutter.project_slug}}%20Generic%20Push/badge.svg?branch=production)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
